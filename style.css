@@ -33,3 +33,20 @@ body{
     -webkit-text-stroke: 2px #000;
     color: aqua;
 }
+
+@media(max-width:600px){
+    .clock{
+        width: 300px;
+    }
+    .clock .num{
+        font-size: 40px;
+    }
+}
+@media(max-width:330px){
+    .clock{
+        width: 150px;
+    }
+    .clock .num{
+        font-size: 25px;
+    }
+}
