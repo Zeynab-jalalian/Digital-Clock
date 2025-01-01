@@ -5,7 +5,6 @@ let time=new Date();
 let hr=time.getHours();
 let min=time.getMinutes();
 let sec=time.getSeconds();
-let day='';
 
 if(hr>12){
     hr=hr-12;
@@ -22,5 +21,5 @@ if(min<10){
 if(hr<10){
     hr='0'+hr;
 }
-clock.innerHTML=hr+" : "+min+" : "+sec+' '+day
+clock.innerHTML=hr+" : "+min+" : "+sec;
 })
